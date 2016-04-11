@@ -5,14 +5,21 @@
  */
 
 import React, { Component } from 'react';
+import Empty from '../components/Empty/Empty';
 
 export default class extends Component {
 
   render() {
+    const empty = <Empty />;
+
     return (
       <div>
-        <h1>Home Page</h1>
-        <p>Coming soon.</p>
+        <div style={{textAlign: 'center'}}>
+          <h1>Tinycrate is coming soon.</h1>
+        </div>
+        <div className="theseCratesYo" style={{position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)'}}>
+          {empty}
+        </div>
       </div>
     );
   }

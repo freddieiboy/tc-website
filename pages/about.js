@@ -12,7 +12,10 @@ export default class extends Component {
     return (
       <div>
         <h1>About Us</h1>
-        <p>Coming soon.</p>
+        <p>Tinycrate is a loot messenger.</p>
+        <p>It's going to change your life.</p>
+        <br/>
+        <p>Contact us: tinycratehq@gmail.com</p>
       </div>
     );
   }
